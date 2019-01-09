@@ -9,4 +9,6 @@ Parallelization of langid using joblib
 
 2. `cd langid/langid.py/langid` 
 
-3. Create a directory `parallel_runs/` and `n` directories inside this. `n: number of parallel runs`. Generally, for a 48 core server, you can safely use around 40 threads. Simply do this with a bash loop.
+3. Install requirements : `pip install -r requirements.txt`
+
+4. Create a directory `parallel_runs/` and `n` directories inside this. `n: number of parallel runs`. Generally, for a 48 core server, you can safely use around 40 threads. Simply do this with a bash loop. 
